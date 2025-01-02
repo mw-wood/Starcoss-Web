@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\matth\\Desktop\\Starcross\\Starcoss-Web\\Starcross\\Starcross\\Starcross.csproj": {}
+    "C:\\Users\\matth\\Desktop\\Starcross\\Starcoss-Web\\Starcross\\Starcross.csproj": {}
   },
   "projects": {
-    "C:\\Users\\matth\\Desktop\\Starcross\\Starcoss-Web\\Starcross\\Starcross\\Starcross.csproj": {
+    "C:\\Users\\matth\\Desktop\\Starcross\\Starcoss-Web\\Starcross\\Starcross.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matth\\Desktop\\Starcross\\Starcoss-Web\\Starcross\\Starcross\\Starcross.csproj",
+        "projectUniqueName": "C:\\Users\\matth\\Desktop\\Starcross\\Starcoss-Web\\Starcross\\Starcross.csproj",
         "projectName": "Starcross",
-        "projectPath": "C:\\Users\\matth\\Desktop\\Starcross\\Starcoss-Web\\Starcross\\Starcross\\Starcross.csproj",
+        "projectPath": "C:\\Users\\matth\\Desktop\\Starcross\\Starcoss-Web\\Starcross\\Starcross.csproj",
         "packagesPath": "C:\\Users\\matth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matth\\Desktop\\Starcross\\Starcoss-Web\\Starcross\\Starcross\\obj\\",
+        "outputPath": "C:\\Users\\matth\\Desktop\\Starcross\\Starcoss-Web\\Starcross\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,16 +49,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.Data.SqlClient": {
-              "target": "Package",
-              "version": "[5.2.2, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
