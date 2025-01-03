@@ -18,8 +18,9 @@ if (string.IsNullOrEmpty(keyVaultUrl))
 var client = new SecretClient(new Uri(keyVaultUrl), new DefaultAzureCredential());
 
 // Retrieve the connection string from Key Vault (replace with your secret name)
-KeyVaultSecret secret = client.GetSecret("connString");
-string connectionString = secret.Value;
+//KeyVaultSecret secret = client.GetSecret("connString");
+//string connectionString = secret.Value;
+string connectionString = "Server=tcp:starcross.database.windows.net,1433;Initial Catalog=starcross;Persist Security Info=False;User ID=StarcrossAdmin;Password=GDfkABX5j5B9wuZ;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
 
 // Register DbContext with the SQL Server connection string retrieved from Key Vault
 builder.Services.AddDbContext<AppDbContext>(options =>
