@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{B28A2140-0130-4048-A76F-4434DE6397C0}|Starcross\\Starcross.csproj|solutionrelative:starcross\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matth\\Desktop\\Starcross\\Starcoss-Web\\.github\\workflows\\main_automatic-games.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\workflows\\main_automatic-games.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B28A2140-0130-4048-A76F-4434DE6397C0}|Starcross\\Starcross.csproj|c:\\users\\matth\\desktop\\starcross\\starcoss-web\\starcross\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B28A2140-0130-4048-A76F-4434DE6397C0}|Starcross\\Starcross.csproj|solutionrelative:starcross\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -42,11 +46,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "main_automatic-games.yml",
+              "DocumentMoniker": "C:\\Users\\matth\\Desktop\\Starcross\\Starcoss-Web\\.github\\workflows\\main_automatic-games.yml",
+              "RelativeDocumentMoniker": ".github\\workflows\\main_automatic-games.yml",
+              "ToolTip": "C:\\Users\\matth\\Desktop\\Starcross\\Starcoss-Web\\.github\\workflows\\main_automatic-games.yml",
+              "RelativeToolTip": ".github\\workflows\\main_automatic-games.yml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-01-03T20:29:04.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\matth\\Desktop\\Starcross\\Starcoss-Web\\Starcross\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Starcross\\Models\\ErrorViewModel.cs",
@@ -58,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\matth\\Desktop\\Starcross\\Starcoss-Web\\Starcross\\appsettings.json",
               "RelativeDocumentMoniker": "Starcross\\appsettings.json",
@@ -70,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\matth\\Desktop\\Starcross\\Starcoss-Web\\Starcross\\Views\\Home\\Error.cshtml",
               "RelativeDocumentMoniker": "Starcross\\Views\\Home\\Error.cshtml",
@@ -82,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\matth\\Desktop\\Starcross\\Starcoss-Web\\Starcross\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Starcross\\Views\\Home\\Privacy.cshtml",
@@ -94,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\matth\\Desktop\\Starcross\\Starcoss-Web\\Starcross\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Starcross\\Data\\AppDbContext.cs",
@@ -112,14 +133,14 @@
               "RelativeDocumentMoniker": "Starcross\\Program.cs",
               "ToolTip": "C:\\Users\\matth\\Desktop\\Starcross\\Starcoss-Web\\Starcross\\Program.cs",
               "RelativeToolTip": "Starcross\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-02T20:21:31.999Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\matth\\Desktop\\Starcross\\Starcoss-Web\\Starcross\\Models\\User.cs",
               "RelativeDocumentMoniker": "Starcross\\Models\\User.cs",
@@ -131,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\matth\\Desktop\\Starcross\\Starcoss-Web\\Starcross\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Starcross\\Controllers\\HomeController.cs",
