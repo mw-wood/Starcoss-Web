@@ -33,6 +33,7 @@ namespace Starcross.Controllers
             {
                 // If it fails go to error page
                 Console.WriteLine($"Error: {ex.Message}");
+                ViewData["ErrorMessage"] = ex.Message;
                 return View("Error");
             }
         }
