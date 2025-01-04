@@ -20,12 +20,10 @@ namespace Starcross.Controllers
             try
             {
                 var users = _context.Users.ToList();
+                var user = users.First();
 
-                // Test Clause
-                foreach (var user in users)
-                {
-                    Console.WriteLine($"User ID: {user.user_id}, Name: {user.username}, Hash: {user.password_hash}, Email: {user.email}");
-                }
+                ViewData["TestUser"] = ($"User ID: {user.user_id}, Name: {user.username}, Hash: {user.password_hash}, Email: {user.email}");
+                
 
                 return View();
             }

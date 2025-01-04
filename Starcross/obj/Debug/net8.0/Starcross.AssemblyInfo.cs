@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Starcross")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d432d6cdbe631269295267fc60d973ce174f5b7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7bb157c456495500016d9efbb7663c4530012050")]
 [assembly: System.Reflection.AssemblyProductAttribute("Starcross")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Starcross")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
