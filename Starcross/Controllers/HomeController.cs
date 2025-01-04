@@ -17,23 +17,7 @@ namespace Starcross.Controllers
 
         public IActionResult Index()
         {
-            try
-            {
-                var users = _context.Users.ToList();
-                var user = users.First();
-
-                ViewData["TestUser"] = ($"User ID: {user.user_id}, Name: {user.username}, Hash: {user.password_hash}, Email: {user.email}");
-                
-
-                return View();
-            }
-            catch (Exception ex)
-            {
-                // If it fails go to error page
-                Console.WriteLine($"Error: {ex.Message}");
-                ViewData["ErrorMessage"] = ex.Message;
-                return View("Error");
-            }
+            return View();
         }
 
         public IActionResult Privacy()
