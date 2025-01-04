@@ -5,6 +5,9 @@ namespace Starcross.Data
 {
     public class AppDbContext : DbContext
     {
+        // Create a set of users, For testing
+        public DbSet<User> Users { get; set; }
+
         public AppDbContext(DbContextOptions<AppDbContext> options)
             : base(options)
         {
@@ -14,11 +17,9 @@ namespace Starcross.Data
         {
             base.OnModelCreating(modelBuilder);
 
+            // Set Primary key to user_id
             modelBuilder.Entity<User>()
-                .HasKey(u => u.user_id); // Define the primary key here if using a custom name
+                .HasKey(u => u.user_id);
         }
-
-        // Define your DbSets (models) here, for example:
-        public DbSet<User> Users { get; set; }
     }
 }

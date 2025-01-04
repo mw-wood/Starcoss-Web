@@ -7,6 +7,7 @@ using Starcross.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Get KeyVault
 var keyVaultUrl = Environment.GetEnvironmentVariable("KEYVAULT_URL");
 
 if (string.IsNullOrEmpty(keyVaultUrl))
@@ -14,18 +15,18 @@ if (string.IsNullOrEmpty(keyVaultUrl))
     throw new InvalidOperationException("Key Vault URL is not configured in environment variables.");
 }
 
-// Create a SecretClient to access Key Vault
+// Create Client and Auth
 var client = new SecretClient(new Uri(keyVaultUrl), new DefaultAzureCredential());
 
-// Retrieve the connection string from Key Vault (replace with your secret name)
+// Get DB Conn
 KeyVaultSecret secret = client.GetSecret("connString");
 string connectionString = secret.Value;
 
-// Register DbContext with the SQL Server connection string retrieved from Key Vault
+// Register DBContext
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(connectionString));
 
-// Add other services to the container, e.g., MVC controllers
+// Enable MVC
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
@@ -46,7 +47,7 @@ app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthorization();
 
-// Map the default route
+// Set Index as default
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

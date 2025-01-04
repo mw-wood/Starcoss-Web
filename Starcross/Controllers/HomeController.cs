@@ -19,23 +19,19 @@ namespace Starcross.Controllers
         {
             try
             {
-                // Query all entries from the Users table
                 var users = _context.Users.ToList();
 
-                // Print the user entries to the console
+                // Test Clause
                 foreach (var user in users)
                 {
                     Console.WriteLine($"User ID: {user.user_id}, Name: {user.username}, Hash: {user.password_hash}, Email: {user.email}");
                 }
 
-                // Optionally, pass the data to the view (if needed)
-                ViewBag.Users = users;
-
                 return View();
             }
             catch (Exception ex)
             {
-                // Handle any errors
+                // If it fails go to error page
                 Console.WriteLine($"Error: {ex.Message}");
                 return View("Error");
             }
